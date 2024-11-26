@@ -1,0 +1,58 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espacia la marca y las opciones */
+    align-items: center;
+    padding: 1rem 2rem; /* Espaciado interno */
+    background: #1c63a7; /* Fondo del menú */
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation */
+.nav-links {
+    display: flex;
+    gap: 1.5rem; /* Espaciado entre los botones */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem; /* Tamaño del texto */
+    padding: 0.5rem 1rem; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #29799e; /* Fondo al pasar el cursor */
+    color: white;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column; /* Cambiar a columna */
+        gap: 1rem;
+    }
+    .nav-links a {
+        font-size: 1.2rem; /* Tamaño más grande para móviles */
+    }
+}

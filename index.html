@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoftWorks - Soluciones de Software</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/testimonials.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="#">SoftWorks</a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+  <!-- Hero Section -->
+<header class="hero">
+    <div class="hero-content">
+      <!-- Logo y Nombre de la Empresa -->
+      <div class="hero-header">
+        <img src="images/1.png" alt="Logo de SoftWorks" class="hero-logo">
+      </div>
+      
+      <!-- Texto principal -->
+      <h1>Impulsa tu Negocio con Soluciones Innovadoras</h1>
+      <p>Desarrollamos software a medida para transformar tus ideas en realidad.</p>
+    </div>
+  </header>
+  
+  <!-- Sección de Servicios -->
+<section id="services" class="services">
+    <h2>¿Qué Ofrecemos?</h2>
+    <div class="service-cards">
+      <div class="card">
+        <img src="images/2.png" alt="Desarrollo Web">
+        <h3>Desarrollo Web</h3>
+        <p>Websites modernos y responsivos que destacan tu marca.</p>
+      </div>
+      <div class="card">
+        <img src="images/4.png" alt="Aplicaciones Móviles">
+        <h3>Aplicaciones Móviles</h3>
+        <p>Apps móviles intuitivas para Android y iOS.</p>
+      </div>
+      <div class="card">
+        <img src="images/3.png" alt="Consultoría Tecnológica">
+        <h3>Consultoría</h3>
+        <p>Asesoramiento experto para maximizar tu potencial digital.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Sección "Conócenos" -->
+<section id="about" class="about-us">
+  <h2>Conócenos</h2>
+  <div class="about-content">
+    <div class="about-card">
+      <img src="images/im2.jpg" alt="Miembro del Equipo">
+      <h3>Julio Gutiérrez</h3>
+      <p>CEO de SoftWorks, apasionado por las tecnologías emergentes y el desarrollo de soluciones innovadoras.</p>
+    </div>
+    <div class="about-card">
+      <img src="images/im.jpg" alt="Miembro del Equipo">
+      <h3>David Cahuasiri</h3>
+      <p>Fundador de SoftWorks, experto en desarrollo de aplicaciones y optimización tecnológica.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Testimonios -->
+<section id="testimonials" class="testimonials" style="background-color: #fcfeff;">
+    <h2 style="color: #444;">Lo que dicen nuestros clientes</h2>
+    <div class="testimonial-slider">
+      <blockquote>
+        <p style="color: #555;">"La dedicación y creatividad del equipo superaron nuestras expectativas. ¡Recomendados!"</p>
+        <cite>- Cliente satisfecho</cite>
+      </blockquote>
+      <blockquote>
+        <p style="color: #555;">"Gracias a su app, nuestras ventas crecieron un 200%. Son los mejores socios tecnológicos."</p>
+        <cite>- Cliente satisfecho</cite>
+      </blockquote>
+    </div>
+  </section>
+  
+  <!-- Contactanos -->
+  <footer id="contact" style="background-color: #144574; color: white;">
+    <h2>Contáctanos</h2>
+    <form id="contact-form" style="margin-bottom: 30px;">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit" style="background-color: #27681a; color: white;">Enviar</button>
+      <p id="confirmation-message" style="display: none; color: green; margin-top: 1rem;">¡Tus datos han sido enviados correctamente!</p>
+    </form>
+
+    <!-- Información de contacto -->
+    <div style="border-top: 1px solid #ffffff40; padding-top: 20px;">
+      <p><strong>Email:</strong> contacto@softworks.com</p>
+      <p><strong>Teléfono:</strong> +591 67750503</p>
+      <p><strong>Dirección:</strong> Calle Charles Siker #123, Ciudad Digital Santa Cruz - Bolivia</p>
+    </div>
+  </footer>
+
+  <script src="script/formHandler.js"></script>
+  <script src="script.js"></script> 
+</body>
+</html>
